@@ -44,10 +44,7 @@ const HeroContent = ({ heroData }) => {
         variants={itemVariants}
         className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 font-poppins leading-[1.15]"
       >
-        Empower Your Future with{' '}
-        <span className="bg-gradient-to-r from-purple-700 via-purple-600 to-teal-500 bg-clip-text text-transparent">
-          Next-Gen Learning
-        </span>
+        {heading}
       </motion.h1>
 
       <motion.p
@@ -81,18 +78,18 @@ const HeroContent = ({ heroData }) => {
       {/* Trust Banner/Stats */}
       <motion.div
         variants={itemVariants}
-        className="mt-12 pt-8 border-t border-purple-100 flex items-center gap-8 text-gray-500"
+        className="mt-12 pt-8 border-t border-primary-100 flex items-center gap-8 text-gray-500"
       >
         <div>
-          <span className="block text-2xl font-bold text-purple-700">10k+</span>
+          <span className="block text-2xl font-bold text-primary-600">10k+</span>
           <span className="text-xs font-poppins font-medium">Students</span>
         </div>
-        <div className="w-px h-8 bg-purple-100"></div>
+        <div className="w-px h-8 bg-primary-100"></div>
         <div>
-          <span className="block text-2xl font-bold text-teal-500">150+</span>
+          <span className="block text-2xl font-bold text-accent-500">150+</span>
           <span className="text-xs font-poppins font-medium">Cloud Labs</span>
         </div>
-        <div className="w-px h-8 bg-purple-100"></div>
+        <div className="w-px h-8 bg-primary-100"></div>
         <div>
           <span className="block text-2xl font-bold text-gray-800">98%</span>
           <span className="text-xs font-poppins font-medium">Success Rate</span>

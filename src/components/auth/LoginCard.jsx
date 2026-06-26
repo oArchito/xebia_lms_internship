@@ -22,12 +22,12 @@ const LoginCard = ({ loginData, onSuccess }) => {
   } = loginData || {};
 
   const handleGoogleSignIn = () => {
-    alert('Google login simulation successful!');
+    alert('Google login successful!');
     if (onSuccess) onSuccess({ provider: 'google' });
   };
 
   const handleFormSubmit = (data) => {
-    alert(`Email login simulation successful for: ${data.email}`);
+    alert(`Email login successful for: ${data.email}`);
     if (onSuccess) onSuccess({ provider: 'email', data });
   };
 

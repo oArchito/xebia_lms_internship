@@ -18,7 +18,7 @@ const Landing = () => {
   const renderIcon = (iconName) => {
     const IconComponent = FaIcons[iconName];
     if (!IconComponent) return null;
-    return <IconComponent className="w-6 h-6 text-purple-600" />;
+    return <IconComponent className="w-6 h-6 text-purple-800" />;
   };
 
   // Framer Motion parent container variants for features stagger load
