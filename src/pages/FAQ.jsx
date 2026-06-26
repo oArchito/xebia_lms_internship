@@ -80,23 +80,11 @@ const FAQ = () => {
             
             {/* Circular Speech Bubble Illustration (Mockup 2 Style) */}
             <div className="w-full max-w-[280px] flex justify-center items-center">
-              <svg viewBox="0 0 200 200" className="w-full h-auto drop-shadow-sm" fill="none" xmlns="http://www.w3.org/2000/svg">
-                {/* Large Background circle */}
-                <circle cx="100" cy="100" r="70" fill="#FAF5FF" />
-                <circle cx="115" cy="115" r="50" fill="#E2D5FC" opacity="0.6" />
-                
-                {/* Primary speech bubble */}
-                <path d="M70 70 C70 45, 130 45, 130 70 C130 85, 110 95, 105 105 L102 115 H98 L95 105 C90 95, 70 85, 70 70 Z" fill="#7B2CBF" />
-                <circle cx="100" cy="125" r="5" fill="#7B2CBF" />
-                <text x="94" y="82" fill="white" fontSize="32" fontWeight="black" fontFamily="sans-serif">?</text>
-                
-                {/* Smaller secondary bubbles */}
-                <circle cx="45" cy="115" r="16" fill="#bbf7f4" opacity="0.8" />
-                <text x="41" y="121" fill="#0d9691" fontSize="16" fontWeight="bold">?</text>
-                
-                <circle cx="145" cy="65" r="12" fill="#ebe0ff" />
-                <text x="142" y="69" fill="#7B2CBF" fontSize="12" fontWeight="bold">?</text>
-              </svg>
+              <img
+                src="/faq.webp"
+                alt="Frequently Asked Questions Illustration"
+                className="w-full h-auto object-contain"
+              />
             </div>
 
             {/* Support Card */}
