@@ -8,7 +8,7 @@ import Footer from '../components/footer/Footer';
  */
 const MainLayout = () => {
   return (
-    <div className="flex flex-col min-h-screen w-full bg-bg-base">
+    <div className="flex flex-col min-h-screen w-full bg-bg-base relative">
       {/* Navigation */}
       <Navbar />
 

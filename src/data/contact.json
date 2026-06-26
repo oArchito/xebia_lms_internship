@@ -1,6 +1,6 @@
 {
   "title": "CONTACT US",
-  "subtitle": "We would love to hear from you! Reach out to us anytime",
+  "subtitle": "Have questions about curriculum, custom enterprise packages, or billing? Reach out and we'll reply within one business day.",
   "submitButton": {
     "label": "SEND MESSAGE"
   },
@@ -16,32 +16,46 @@
       "type": "text"
     },
     "email": {
-      "label": "Email",
-      "placeholder": "Enter email address",
+      "label": "Work Email",
+      "placeholder": "you@company.com",
       "type": "email"
     },
     "phone": {
       "label": "Phone Number",
-      "placeholder": "Enter your phone",
+      "placeholder": "+1 (555) 000-0000",
       "type": "tel"
     },
     "subject": {
       "label": "Subject",
-      "placeholder": "Enter the subject",
+      "placeholder": "How can we help your team?",
       "type": "text"
     },
     "message": {
-      "label": "Message",
-      "placeholder": "Enter your message",
+      "label": "Message Details",
+      "placeholder": "Tell us about your learning objectives or technical questions...",
       "type": "textarea"
     }
   },
   "successMessage": "Thank you! Your message has been received. Our team will get back to you shortly.",
   "info": {
-    "title": "Contact Information",
-    "description": "Reach out directly via phone or email, or visit one of our global offices.",
-    "phone": "+1 (800) 555-0199",
+    "title": "Office Information",
+    "description": "Reach out directly via email, phone, or visit one of our central consulting offices.",
+    "phone": "+31 (0)20 530 6000",
     "email": "training@xebia.com",
-    "address": "Xebia Global Headquarters, Wibautstraat 200, Amsterdam, Netherlands"
+    "address": "Xebia Group HQ, Wibautstraat 200, 1091 GS Amsterdam, Netherlands",
+    "offices": [
+      {
+        "city": "Amsterdam",
+        "detail": "Wibautstraat 200, 1091 GS Amsterdam, NL"
+      },
+      {
+        "city": "Atlanta",
+        "detail": "8000 Avalon Blvd, Alpharetta, GA 30009, US"
+      },
+      {
+        "city": "Gurgaon",
+        "detail": "Capital Cyberscape, Sector 59, Gurugram, Haryana 122102, IN"
+      }
+    ]
   }
 }

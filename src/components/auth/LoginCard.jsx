@@ -34,7 +34,7 @@ const LoginCard = ({ loginData, onSuccess }) => {
   return (
     <Card
       hoverEffect={false}
-      className="w-full max-w-md p-8 sm:p-10 border border-gray-100 shadow-lg rounded-none"
+      className="w-full max-w-md p-8 sm:p-10 border border-gray-100 shadow-lg rounded-2xl"
     >
       {/* Centered Xebia Logo */}
       <div className="flex justify-center mb-4">

@@ -57,7 +57,7 @@ const LoginForm = ({ fields = {}, buttonLabel = 'Login', onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col w-full gap-5">
-      {/* Nested fields */}
+      {/* Simple outline fields */}
       {Object.entries(fields).map(([fieldName, config]) => (
         <Input
           key={fieldName}
@@ -68,16 +68,15 @@ const LoginForm = ({ fields = {}, buttonLabel = 'Login', onSubmit }) => {
           value={formData[fieldName]}
           onChange={(e) => handleChange(fieldName, e.target.value)}
           error={errors[fieldName]}
-          variant="nested"
           required
         />
       ))}
 
-      {/* Sharp-edged, solid purple gradient submit button */}
+      {/* Solid purple, rounded-xl submit button */}
       <button
         type="submit"
         disabled={isLoading}
-        className="w-full py-3 mt-2 bg-gradient-to-r from-primary-700 via-primary-600 to-primary-400 hover:from-primary-800 hover:to-primary-600 text-white font-poppins font-bold text-sm tracking-wider uppercase transition-all duration-200 cursor-pointer disabled:opacity-60 flex items-center justify-center gap-2"
+        className="w-full py-3.5 mt-2 bg-primary-600 hover:bg-primary-700 text-white font-poppins font-bold text-sm tracking-wider uppercase rounded-xl transition-all duration-200 cursor-pointer disabled:opacity-60 flex items-center justify-center gap-2"
       >
         {isLoading ? (
           <>

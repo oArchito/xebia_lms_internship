@@ -1,12 +1,12 @@
 {
   "logo": {
     "text": "Xebia",
-    "accentText": "",
+    "accentText": "Learn",
     "link": "/"
   },
-  "searchPlaceholder": "Want to learn?",
+  "searchPlaceholder": "Search skills (e.g. Kubernetes, AWS)...",
   "links": [
-    { "label": "Login", "path": "/login" },
+    { "label": "Courses", "path": "/#courses" },
     { "label": "FAQ's", "path": "/faq" },
     { "label": "Contact", "path": "/contact" }
   ],

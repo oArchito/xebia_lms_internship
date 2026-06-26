@@ -71,7 +71,7 @@ const Input = ({
   }
 
   // Default Outline style (label above, input with border)
-  const inputClass = `w-full px-4 py-3 border font-poppins text-sm text-gray-800 placeholder-gray-400 focus:outline-none transition-all ${
+  const inputClass = `w-full px-4 py-3 border rounded-xl font-poppins text-sm text-gray-800 placeholder-gray-400 focus:outline-none transition-all ${
     error
       ? 'border-red-400 focus:ring-red-400 focus:border-red-400 bg-red-50/10'
       : 'border-gray-400 hover:border-gray-500 focus:ring-1 focus:ring-purple-700 focus:border-transparent bg-white shadow-sm'

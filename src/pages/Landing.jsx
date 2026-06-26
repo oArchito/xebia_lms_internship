@@ -5,10 +5,11 @@ import Hero from '../components/hero/Hero';
 import Container from '../components/common/Container';
 import SectionTitle from '../components/common/SectionTitle';
 import Card from '../components/common/Card';
+import SimpleCourses from '../components/home/SimpleCourses';
 import { getLandingData } from '../services/api';
 
 /**
- * Landing Page component
+ * Clean, simple Landing Page matching human-designed standards
  */
 const Landing = () => {
   const landingData = getLandingData();
@@ -18,31 +19,30 @@ const Landing = () => {
   const renderIcon = (iconName) => {
     const IconComponent = FaIcons[iconName];
     if (!IconComponent) return null;
-    return <IconComponent className="w-6 h-6 text-purple-800" />;
+    return <IconComponent className="w-6 h-6 text-purple-600" />;
   };
 
-  // Framer Motion parent container variants for features stagger load
+  // Simple animations
   const listVariants = {
     hidden: {},
     visible: {
       transition: {
-        staggerChildren: 0.15,
+        staggerChildren: 0.1,
       },
     },
   };
 
-  // Card items animations
   const cardVariants = {
-    hidden: { opacity: 0, y: 40 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { type: 'spring', stiffness: 80, damping: 15 },
+      transition: { type: 'spring', stiffness: 100, damping: 15 },
     },
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-white">
       {/* Hero Section */}
       <Hero heroData={hero} />
 
@@ -62,7 +62,7 @@ const Landing = () => {
               variants={listVariants}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, margin: '-100px' }}
+              viewport={{ once: true }}
               className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12"
             >
               {features.items &&
@@ -90,9 +90,11 @@ const Landing = () => {
           </Container>
         </section>
       )}
+
+      {/* Featured Courses Section */}
+      <SimpleCourses />
     </div>
   );
 };
 
 export default Landing;
-//

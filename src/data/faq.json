@@ -1,38 +1,38 @@
 {
   "title": "Frequently Asked Questions",
-  "subtitle": "Find answers to common questions",
-  "searchPlaceholder": "Search your question...",
+  "subtitle": "Clear, detailed answers about our labs, certificates, and enterprise options.",
+  "searchPlaceholder": "Search by keyword (e.g. labs, billing, AWS)...",
   "supportCard": {
-    "title": "Still have questions?",
-    "description": "We're here to help you",
-    "ctaText": "CONTACT SUPPORT",
+    "title": "Need custom training?",
+    "description": "Get in touch with our curriculum team to design bespoke learning paths for your team.",
+    "ctaText": "CONTACT SALES",
     "ctaPath": "/contact"
   },
   "items": [
     {
       "id": 1,
-      "question": "Can I enroll in multiple courses at once?",
-      "answer": "Yes! You can enroll in as many courses as you want and learn at your own pace without any limits."
+      "question": "Are these courses strictly theoretical, or do they include live labs?",
+      "answer": "Every core engineering track includes browser-integrated sandbox environments. You will run commands, configure pipelines, and troubleshoot errors on real cloud instances (AWS, GCP) or in Kubernetes environments directly inside your browser window."
     },
     {
       "id": 2,
-      "question": "What kind of support can I get?",
-      "answer": "Our dedicated support team is available 24/7 to assist you with any course content, technical difficulties, or platform issues."
+      "question": "Who designs the course curriculum?",
+      "answer": "Our paths are created by active principal consultants and architects at Xebia. These are the same engineers who architect solutions for global banks, e-commerce giants, and scale-ups, meaning you learn real production patterns."
     },
     {
       "id": 3,
-      "question": "Are there any pre requisites of the courses?",
-      "answer": "Most of our foundational courses require no prior experience. Advanced engineering and architecture labs recommend basic programming and command-line familiarity."
+      "question": "How do the cloud sandbox environments work? Do I need my own accounts?",
+      "answer": "No personal accounts or credentials are required. Xebia Learn dynamically provisions temporary, fully funded cloud instances or isolated namespaces for you. The platform manages the credentials, and resources are cleaned up automatically when your lab session ends."
     },
     {
       "id": 4,
-      "question": "Are the courses self placed?",
-      "answer": "Yes! All courses are 100% online, self-paced, and fit around your personal schedule."
+      "question": "Do you offer team billing or custom learning paths for companies?",
+      "answer": "Yes. We provide enterprise-grade solutions including Single Sign-On (SSO), team analytics dashboards, customizable learning paths, and private office hours with Xebia consultants. Get in touch via our Contact page for details."
     },
     {
       "id": 5,
-      "question": "How will I receive my certificates?",
-      "answer": "Upon completing all modules and labs in a pathway, your certificate will be generated automatically and made available for download in your dashboard."
+      "question": "Are the courses self-paced, and is there a time limit?",
+      "answer": "Yes. All digital courses are 100% self-paced. Once enrolled, you have unlimited access to the course materials, slides, and syllabus updates, so you can learn on whatever schedule fits your workday."
     }
   ]
 }

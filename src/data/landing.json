@@ -1,33 +1,33 @@
 {
   "hero": {
-    "heading": "Shaping Tomorrow with AI Today",
-    "subtitle": "Discover hands-on courses designed by industry experts at Xebia. Master cloud, DevOps, AI, and modern software engineering at your own pace.",
+    "heading": "Learn from the Engineers Who Build Enterprise Systems",
+    "subtitle": "Skip the boilerplate tutorials. Upskill on cloud-native architecture, production-grade Kubernetes, infrastructure as code, and LLMOps with courses written and taught by active Xebia consultants.",
     "cta": {
-      "text": "Explore Courses",
-      "path": "/login"
+      "text": "Browse Courses",
+      "path": "#courses"
     },
     "illustration": "hero_illustration"
   },
   "features": {
-    "title": "Why Choose Xebia Learn?",
-    "subtitle": "Accelerate your career with a platform built for developers, architects, and engineering leaders.",
+    "title": "Built for Architects & Developers",
+    "subtitle": "Accelerate your career and engineering efficiency with standard-setting, hands-on learning resources.",
     "items": [
       {
         "id": 1,
-        "title": "Expert-Led Content",
-        "description": "Learn from certified Xebia consultants who work with enterprise technologies daily.",
+        "title": "Consultant-Led Curriculum",
+        "description": "Learn from active Xebia principal consultants who solve complex cloud and DevOps challenges for Fortune 500 enterprises every day.",
         "icon": "FaGraduationCap"
       },
       {
         "id": 2,
-        "title": "Hands-on Labs",
-        "description": "Access fully configured cloud workspaces and sandboxes right inside your browser.",
+        "title": "Zero-Setup Interactive Labs",
+        "description": "Spin up real, pre-configured sandbox environments (AWS, GCP, Kubernetes) directly in your browser. No local installs, no security hurdles.",
         "icon": "FaLaptopCode"
       },
       {
         "id": 3,
-        "title": "Industry Certifications",
-        "description": "Earn recognized credentials in AWS, Azure, GCP, Kubernetes, and Agile frameworks.",
+        "title": "Production-Ready Patterns",
+        "description": "Don't just pass tests. Master real gitops workflows, zero-trust cloud network policies, and robust infrastructure-as-code patterns.",
         "icon": "FaAward"
       }
     ]

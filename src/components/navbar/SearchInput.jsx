@@ -13,10 +13,10 @@ const SearchInput = ({ placeholder = 'Want to learn?' }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (query.trim()) {
-      navigate(`/faq?q=${encodeURIComponent(query.trim())}`);
+      navigate(`/?search=${encodeURIComponent(query.trim())}`);
       setQuery('');
     } else {
-      navigate('/faq');
+      navigate('/');
     }
   };
 
