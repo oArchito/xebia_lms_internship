@@ -1,0 +1,17 @@
+{
+  "logo": {
+    "text": "Xebia",
+    "accentText": "",
+    "link": "/"
+  },
+  "searchPlaceholder": "Want to learn?",
+  "links": [
+    { "label": "Login", "path": "/login" },
+    { "label": "FAQ's", "path": "/faq" },
+    { "label": "Contact", "path": "/contact" }
+  ],
+  "loginButton": {
+    "label": "Login",
+    "path": "/login"
+  }
+}

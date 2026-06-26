@@ -1,0 +1,38 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Find answers to common questions",
+  "searchPlaceholder": "Search your question...",
+  "supportCard": {
+    "title": "Still have questions?",
+    "description": "We're here to help you",
+    "ctaText": "CONTACT SUPPORT",
+    "ctaPath": "/contact"
+  },
+  "items": [
+    {
+      "id": 1,
+      "question": "Can I enroll in multiple courses at once?",
+      "answer": "Yes! You can enroll in as many courses as you want and learn at your own pace without any limits."
+    },
+    {
+      "id": 2,
+      "question": "What kind of support can I get?",
+      "answer": "Our dedicated support team is available 24/7 to assist you with any course content, technical difficulties, or platform issues."
+    },
+    {
+      "id": 3,
+      "question": "Are there any pre requisites of the courses?",
+      "answer": "Most of our foundational courses require no prior experience. Advanced engineering and architecture labs recommend basic programming and command-line familiarity."
+    },
+    {
+      "id": 4,
+      "question": "Are the courses self placed?",
+      "answer": "Yes! All courses are 100% online, self-paced, and fit around your personal schedule."
+    },
+    {
+      "id": 5,
+      "question": "How will I receive my certificates?",
+      "answer": "Upon completing all modules and labs in a pathway, your certificate will be generated automatically and made available for download in your dashboard."
+    }
+  ]
+}

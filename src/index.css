@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", system-ui, -apple-system, sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  
+  /* Brand Color Palette Overrides */
+  --color-primary-50: #FAF5FF;
+  --color-primary-100: #EFE6F7;
+  --color-primary-200: #E2D5FC;
+  --color-primary-300: #C4B5E8;
+  --color-primary-400: #84117C; /* Bright Tr. Velvet */
+  --color-primary-500: #7b2cbf;
+  --color-primary-600: #6C1D5F; /* Tranquil Velvet */
+  --color-primary-700: #4A1E47; /* Tranquil Velvet Dark */
+  --color-primary-800: #3c096c;
+  --color-primary-900: #240046;
+
+  --color-accent-50: #E6FCFB;
+  --color-accent-100: #BFF9F6;
+  --color-accent-500: #01AC9F; /* Emerald Teal */
+  --color-accent-600: #FF6200; /* CTA Orange */
+  
+  --color-bg-base: #F7F8FC; /* Blueish Grey */
+}
+
+/* Base resets & styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-base);
+  color: #1f2937; /* Gray 800 default text */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-200);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-400);
+}

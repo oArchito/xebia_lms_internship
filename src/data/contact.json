@@ -1,0 +1,47 @@
+{
+  "title": "CONTACT US",
+  "subtitle": "We would love to hear from you! Reach out to us anytime",
+  "submitButton": {
+    "label": "SEND MESSAGE"
+  },
+  "fields": {
+    "firstName": {
+      "label": "First name",
+      "placeholder": "Enter your first name",
+      "type": "text"
+    },
+    "lastName": {
+      "label": "Last name",
+      "placeholder": "Enter your last name",
+      "type": "text"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter email address",
+      "type": "email"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "Enter your phone",
+      "type": "tel"
+    },
+    "subject": {
+      "label": "Subject",
+      "placeholder": "Enter the subject",
+      "type": "text"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Enter your message",
+      "type": "textarea"
+    }
+  },
+  "successMessage": "Thank you! Your message has been received. Our team will get back to you shortly.",
+  "info": {
+    "title": "Contact Information",
+    "description": "Reach out directly via phone or email, or visit one of our global offices.",
+    "phone": "+1 (800) 555-0199",
+    "email": "training@xebia.com",
+    "address": "Xebia Global Headquarters, Wibautstraat 200, Amsterdam, Netherlands"
+  }
+}

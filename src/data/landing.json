@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "heading": "Empower Your Future with Next-Gen Learning",
+    "subtitle": "Discover hands-on courses designed by industry experts at Xebia. Master cloud, DevOps, AI, and modern software engineering at your own pace.",
+    "cta": {
+      "text": "Explore Courses",
+      "path": "/login"
+    },
+    "illustration": "hero_illustration"
+  },
+  "features": {
+    "title": "Why Choose Xebia Learn?",
+    "subtitle": "Accelerate your career with a platform built for developers, architects, and engineering leaders.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Expert-Led Content",
+        "description": "Learn from certified Xebia consultants who work with enterprise technologies daily.",
+        "icon": "FaGraduationCap"
+      },
+      {
+        "id": 2,
+        "title": "Hands-on Labs",
+        "description": "Access fully configured cloud workspaces and sandboxes right inside your browser.",
+        "icon": "FaLaptopCode"
+      },
+      {
+        "id": 3,
+        "title": "Industry Certifications",
+        "description": "Earn recognized credentials in AWS, Azure, GCP, Kubernetes, and Agile frameworks.",
+        "icon": "FaAward"
+      }
+    ]
+  }
+}

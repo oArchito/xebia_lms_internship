@@ -1,0 +1,31 @@
+{
+  "title": "WELCOME BACK!",
+  "subtitle": "Sign in to your account",
+  "googleButton": {
+    "label": "Continue with Google"
+  },
+  "dividerText": "OR",
+  "fields": {
+    "email": {
+      "label": "email address",
+      "placeholder": "Enter your email address",
+      "type": "email"
+    },
+    "password": {
+      "label": "password",
+      "placeholder": "Enter your Password",
+      "type": "password"
+    }
+  },
+  "rememberMeLabel": "Remember me",
+  "forgotPasswordLabel": "Forgot password?",
+  "loginButton": {
+    "label": "Login"
+  },
+  "signUpPrompt": "Don’t have account?",
+  "signUpLinkText": "Sign Up",
+  "heroSection": {
+    "heading": "UP YOUR SKILLS TO ADVANCE YOUR CAREER PATH",
+    "bulletPoints": []
+  }
+}
